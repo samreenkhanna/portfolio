@@ -1,0 +1,314 @@
+*{
+   
+    font-family:'poppins',sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 13%;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content:space-between ;
+    background-color: black;
+    align-items: center;
+    z-index: 100;
+    
+}
+.header a{
+    text-decoration: none;
+}
+.logo{
+    font-size: 27px;
+    color: aliceblue;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+
+
+}
+.logo:hover{
+    color:brown ;
+    text-shadow: 0 0 25px brown,
+    0 0 50px brown ;
+    transform: scale(1.1);
+}
+.navbar a{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a.active{
+    color:brown;
+    border-bottom:  3px solid brown;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(241,241,241);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.home-content{
+    max-width: 800px;
+}
+.home-content h3{
+    font-size: 42px;
+
+}
+.home-content h1{
+    font-size: 60px;
+    line-height: 1.2;
+}
+.home-content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+.btn-box{
+    width: 345px;
+    display: flex;
+    gap:2em;
+}
+.btn-1{
+    padding: 15px 28px;
+    background-color: black;
+    color:white ;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    
+}
+.btn-1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.btn-2{
+    padding: 15px 28px;
+    background-color: brown;
+    color:white ;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: white;
+    color:brown;
+    
+}
+img{
+    height: 500px;
+    width: 400px;
+    border-radius: 50%;
+}
+::-webkit-scrollbar{
+    width: 15px;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: brown;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+    width: 50px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13% 10%;
+    gap: 10em;
+    background-color: black;
+
+}
+.about-content h2{
+    text-align: center;
+    font-size:80px;
+    color: white;
+
+}
+span{
+    color: brown;
+}
+.about-content h3{
+    font-size: 60px;
+    color: white;
+
+}
+.about-content p{
+    color:white;
+    font-size: 25px;
+   
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'poppins', sans-serif;
+    gap:10em;
+}
+.skills-content h5{
+    text-align: center;
+    font-size:60px;
+}
+.list{
+    font-size: 30px;
+    
+    background-color: black;
+    color: white;
+}
+.Education{
+    display: flex;
+   justify-content: center;
+    font-family:'poppins', sans-serif;
+    gap:10rem;
+    text-align: center;
+    background-color: black;
+  
+}
+.Edu h6{
+       font-size: 80px;
+      text-align: center;
+      justify-content: center;
+       color: brown;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+    
+
+.oneedu h7{
+    color: brown;
+    font-size: 40px;
+    text-align: left;
+}
+.oneedu p{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
+.twoedu{
+    color: brown;
+    font-size: 40px;
+    text-align: left;
+}
+.twoedu p{
+    color: white;
+    font-size: 25px;
+}
+.threeedu{
+    color: brown;
+    font-size: 40px;
+    text-align: left;
+}
+.threeedu p{
+    color: white;
+    font-size: 25px;
+}
+.contact-form h1{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 50px;
+}
+.contact-form form{
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+.contact-form form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.contact-form form .input-box input,
+.contact-form form textarea{
+    width: 90%;
+    padding: 1.5rem;
+    font-size: 20px;
+    color: black;
+    background: rgb(241,241,241);
+    border-radius: 0.8rem;
+    margin: 1rem 0;
+    resize: none;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+.footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 2px solid brown;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px brown,0 0 10px brown;
+    transition: 0.3s ease;
+
+
+}
+.footer .social a:hover{
+    transform: scale(1.2)translateY(-10px);
+    color: brown;
+    border: 2px solid brown;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid brown
+    ;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
